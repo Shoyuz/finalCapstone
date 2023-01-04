@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saved For Later</title>
+
+    <!-- FONT AWESOME LINK FOR THE ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="main-styles.css" />
+  </head>
+  <!-- WHEN THE PAGE LOADS DISPLAY THE ITEMS -->
+  <body onload="displaySavedForLater()">
+    <header>
+      <nav>
+        <div>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li>
+              <a href="savedForLaterPage.html"><i>View saved for later</i></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- PARENT DIV WHICH WILL BE THE CONTAINER FOR THE SAVED FOR LATER ITEMS ADDED BY THE USER -->
+    <div class="forLater"></div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,157 @@
+/* STYLES FOR contact.html and about.html */
+
+/* ABOUT PAGE CSS */
+body {
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 100vh;
+}
+
+figure {
+  margin-left: 0px;
+}
+
+h1 {
+  margin: 0%;
+}
+
+#flex-container {
+  display: flex;
+  /* flex: 1 1 50%; */
+  /* flex-flow: column; */
+}
+
+#about-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.about-side {
+  align-self: center;
+}
+
+.about-image img {
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+/* ABOUT PAGE CSS */
+
+/* SHARED STYLES */
+body {
+  /* margin: 2rem; */
+  background-color: darkgrey;
+}
+
+/* NAVIGATION */
+nav {
+  /* border-top: 2px solid black;
+    border-bottom: 2px solid black; */
+  background-color: black;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 10px;
+  height: 20px;
+  /* border: 2px solid white; */
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-right: 5px;
+  border-bottom: 1px solid transparent;
+  transition: all ease-in-out 0.5s;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  /* transition: all 0.5s; */
+}
+
+nav ul li:hover {
+  border-bottom: 1px solid white;
+  transform: scale(1.1);
+}
+
+nav ul li a:hover {
+  color: whitesmoke;
+}
+/* NAVIGATION */
+
+footer {
+  border: 2px solid black;
+  background-color: dimgray;
+}
+/* SHARED STYLES */
+
+/* CONTACTS PAGE STYLES */
+
+.contact-main {
+  height: 100vh;
+}
+.contact-footer {
+  padding: 3%;
+  background-color: black;
+}
+
+/* .contact-fieldset-wrapper {
+  background-color: black;
+  padding: 0.2rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+} */
+
+.contact-fieldset {
+  border-radius: 5px;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  gap: 0.5rem;
+  /* background-color: black; */
+  border: 1px solid black;
+}
+
+.submit {
+  border-radius: 10px;
+}
+
+.submit:hover {
+  background-color: lightgray;
+}
+
+input,
+textarea {
+  border-radius: 5px;
+}
+
+legend {
+  font-weight: 800;
+}
+
+@media screen and (max-width: 350px) {
+  /* Navigation Menu display column */
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* Navigation Menu display column */
+  .contact-fieldset {
+    display: none;
+  }
+}
+
+/* CONTACTS PAGE STYLES*/
