@@ -15,7 +15,7 @@ The main purpose of this project was to put into practice the Javascript, HTML a
 
 ## Installation Instructions
 You can clone the repository and make a copy of it in your local machine, and make any changes to the source code taylored to your specific requirements in case you have a similar  project that you are working on.
-[git_repo_cloning_instructions.pdf](https://github.com/Shoyuz/my_website/files/10347873/git_repo_cloning_instructions.pdf)
+
  
 ## Project Usage
 Being a capstone project of a Skills bootcamp to put into use the skills that i had acquired, you may find it not very useful to a real world use case. However you may find implementations of code or code snippets in there that could help you out in case you were planning to implement similar features in your project.
