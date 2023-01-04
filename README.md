@@ -20,7 +20,7 @@ You can clone the repository and make a copy of it in your local machine, and ma
 ![git_repo_cloning_instructions3](https://user-images.githubusercontent.com/39889312/210662148-c42dd86a-59e6-4d3c-873b-1d204c7a6bac.png)
 
 ## Project Usage
-Being a capstone project of a Skills bootcamp to put into use the skills that i had acquired, you may find it not very useful to a real world use case. However you may find implementations of code or code snippets in there that could help you out in case you were planning to implement similar features in your project.
+Being a capstone project of a Skills bootcamp to put into use the skills that i had acquired, you may find it not very useful to a real world use case. However you may find implementations of code or code snippets in there that could help you out in case you were planning to implement similar features in your project, especially the saved for later implementation feature.
 
 ### Credits
 This project has been developed by *Shoaib Ibrahim*  
