@@ -22,5 +22,5 @@ You can clone the repository and make a copy of it in your local machine, and ma
 ## Project Usage
 Being a capstone project of a Skills bootcamp to put into use the skills that i had acquired, you may find it not very useful to a real world use case. However you may find implementations of code or code snippets in there that could help you out in case you were planning to implement similar features in your project.
 
-### Credit
+### Credits
 This project has been developed by *Shoaib Ibrahim*  
